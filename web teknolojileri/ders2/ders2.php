@@ -126,7 +126,7 @@
         $x = 15.913;
         $y = 15.213;
         echo "$x Floor yuvarlaması sonucu: " . floor($x) . "<br>";
-        echo "$x Floor yuvarlaması sonucu: " . floor($y) . "<br>";
+        echo "$y Floor yuvarlaması sonucu: " . floor($y) . "<br>";
 
         echo "<h5> Yuvarlama İşlemleri (ceil(x))</h5>";
         // en yakın en büyük tam sayıya yuvarlar
