@@ -81,47 +81,47 @@
             "ogr2" => array(
                 "id"      => 2,
                 "adi"     => "Kemal",
-                "soyadi"  => "Yıldız",
-                "bolum"   => "Bilgisayar",
+                "soyadi"  => "Güner",
+                "bolum"   => "İşletme",
                 "yas"     => 20,
                 "dersler" => array(
-                    "ders1" => "Web Programlama",
-                    "ders2" => "Veri Tabanı",
-                    "ders3" => "Mobil Programlama"
+                    "ders1" => "İktisada Giriş",
+                    "ders2" => "İşletme İlkeleri",
+                    "ders3" => "Genel Matematik"
                 ),
                 "sınıf"    => 2,
-                "memleket" => "İzmir"
+                "memleket" => "Kayseri"
             ),
             "ogr3" => array(
                 "id"      => 3,
                 "adi"     => "İsmet",
                 "soyadi"  => "Yanık",
-                "bolum"   => "Bilgisayar",
+                "bolum"   => "Elektrik",
                 "yas"     => 20,
                 "dersler" => array(
-                    "ders1" => "Web Programlama",
-                    "ders2" => "Veri Tabanı",
-                    "ders3" => "Mobil Programlama"
+                    "ders1" => "Ölçme Tekniği",
+                    "ders2" => "Doğru Akım Devreleri",
+                    "ders3" => "Temel Elektronik"
                 ),
                 "sınıf"    => 2,
-                "memleket" => "İzmir"
+                "memleket" => "Bursa"
             ),
             "ogr4" => array(
                 "id"      => 4,
-                "adi"     => "Hilal",
-                "soyadi"  => "arı",
-                "bolum"   => "Bilgisayar",
+                "adi"     => "Hacer",
+                "soyadi"  => "Yılmaz",
+                "bolum"   => "Makine",
                 "yas"     => 20,
                 "dersler" => array(
-                    "ders1" => "Web Programlama",
-                    "ders2" => "Veri Tabanı",
-                    "ders3" => "Mobil Programlama"
+                    "ders1" => "Termodinamik",
+                    "ders2" => "Ölçme Ve Kontrol",
+                    "ders3" => "Mukavemet"
                 ),
                 "sınıf"    => 2,
-                "memleket" => "İzmir"
+                "memleket" => "Samsun"
             )
-
         );
+        
         echo "<pre>";
         print_r($ogrencidetaylari);
         echo "</pre>";
