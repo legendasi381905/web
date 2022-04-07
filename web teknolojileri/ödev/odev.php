@@ -31,15 +31,6 @@
 </head>
 <body>
     <?php
-/* aşağıdaki dizinin her elemanı bir öğrenci detayına karşılık gelmektedir 
-        bu öğrencilere ait detaylari aşağıdaki şekilde bir tablo oluşturup içerisine yazdırınız.
-
-        #id    #adi    #soyadi    #bölüm       #dersler           #sınıf
-        1      Havva   Yıldız     Bilgisayar   web programlama    2
-                                               veri tabanı
-                                               mobil programlama
-        */
-        
         $ogrencidetaylari = array(
             "ogr1" => array(
                 "id"      => 1,
@@ -97,8 +88,18 @@
                 "sınıf"    => 2,
                 "memleket" => "Samsun"
             )
-
         );
+        $sayi = rand(1,100);
+        if ($sayi %2 == 0)
+            echo "$sayi sayısı çifttir.";
+        else 
+            echo "$sayi sayısı tektir.";
+        echo "<br>";
+        $sayi2 = rand(1,100);
+        if ($sayi < 50)
+            echo "notunuz $sayi2 kaldınız.";
+        else 
+            echo "notunuz $sayi2 geçtiniz.";
     ?>
     <table id="table" border="1">
         <tr id="tr">
