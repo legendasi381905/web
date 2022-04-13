@@ -100,6 +100,19 @@
             echo "notunuz $sayi2 kaldınız.";
         else 
             echo "notunuz $sayi2 geçtiniz.";
+        
+        
+    ?>
+    <form action="odev.php" method="get">
+        Doğum Tarihinizi Giriniz: <input type="number" name="dogum">
+        <input type="submit">
+    </form>
+    <?php 
+        $yıl = 2022;
+        if ($_GET["dogum"] > 2004)
+            echo $yıl-$_GET["dogum"] . " Yaşındasınız Ehliyet Alamazsınız.";
+        else
+            echo $yıl-$_GET["dogum"] . " Yaşındasınız Ehliyet Alabilirsiniz.";
     ?>
     <table id="table" border="1">
         <tr id="tr">
